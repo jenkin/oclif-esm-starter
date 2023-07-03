@@ -842,8 +842,8 @@ __metadata:
   linkType: hard
 
 "@oclif/core@npm:^1.20.3, @oclif/core@npm:^1.20.4":
-  version: 1.25.0
-  resolution: "@oclif/core@npm:1.25.0"
+  version: 1.26.2
+  resolution: "@oclif/core@npm:1.26.2"
   dependencies:
     "@oclif/linewrap": ^1.0.0
     "@oclif/screen": ^3.0.4
@@ -873,48 +873,11 @@ __metadata:
     tslib: ^2.4.1
     widest-line: ^3.1.0
     wrap-ansi: ^7.0.0
-  checksum: 5045a5589d09759de2538816b848450d58007392654181cbd3e19b6bbf03019a8efe0bc3a12fbe1d5e39212534e1ec7d70672283381d6306cfccf6a322e8fc47
+  checksum: 1da7f22fff1eb4bba10f17f07a97bad308d317a0b591561be7f1171edff2f40bf84830295965b26cfcb80d3c5df7958df35bbbba4ce030e14a68bbc8e3cedc82
   languageName: node
   linkType: hard
 
-"@oclif/core@npm:^2, @oclif/core@npm:^2.8.4, @oclif/core@npm:^2.8.7":
-  version: 2.8.10
-  resolution: "@oclif/core@npm:2.8.10"
-  dependencies:
-    "@types/cli-progress": ^3.11.0
-    ansi-escapes: ^4.3.2
-    ansi-styles: ^4.3.0
-    cardinal: ^2.1.1
-    chalk: ^4.1.2
-    clean-stack: ^3.0.1
-    cli-progress: ^3.12.0
-    debug: ^4.3.4
-    ejs: ^3.1.8
-    fs-extra: ^9.1.0
-    get-package-type: ^0.1.0
-    globby: ^11.1.0
-    hyperlinker: ^1.0.0
-    indent-string: ^4.0.0
-    is-wsl: ^2.2.0
-    js-yaml: ^3.14.1
-    natural-orderby: ^2.0.3
-    object-treeify: ^1.1.33
-    password-prompt: ^1.1.2
-    semver: ^7.3.7
-    string-width: ^4.2.3
-    strip-ansi: ^6.0.1
-    supports-color: ^8.1.1
-    supports-hyperlinks: ^2.2.0
-    ts-node: ^10.9.1
-    tslib: ^2.5.0
-    widest-line: ^3.1.0
-    wordwrap: ^1.0.0
-    wrap-ansi: ^7.0.0
-  checksum: 7d425b5d175d5b6e3e7a32d1d3ebb62e6132ab5f7e95efc558c491c2512221c127fd2cedaa1651868715c28f0a684d891077af4cbb80ec23e74ed680610369ad
-  languageName: node
-  linkType: hard
-
-"@oclif/core@npm:^2.8.11":
+"@oclif/core@npm:^2, @oclif/core@npm:^2.8.11, @oclif/core@npm:^2.8.4, @oclif/core@npm:^2.8.7":
   version: 2.8.11
   resolution: "@oclif/core@npm:2.8.11"
   dependencies:
@@ -8149,11 +8112,11 @@ __metadata:
 
 "typescript@patch:typescript@^5.1.6#~builtin<compat/typescript>":
   version: 5.1.6
-  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
+  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=85af82"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f53bfe97f7c8b2b6d23cf572750d4e7d1e0c5fff1c36d859d0ec84556a827b8785077bc27676bf7e71fae538e517c3ecc0f37e7f593be913d884805d931bc8be
+  checksum: 21e88b0a0c0226f9cb9fd25b9626fb05b4c0f3fddac521844a13e1f30beb8f14e90bd409a9ac43c812c5946d714d6e0dee12d5d02dfc1c562c5aacfa1f49b606
   languageName: node
   linkType: hard
 
