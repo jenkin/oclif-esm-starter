@@ -106,10 +106,13 @@ List installed plugins.
 
 ```
 USAGE
-  $ oclif-esm-starter plugins [--core]
+  $ oclif-esm-starter plugins [--json] [--core]
 
 FLAGS
   --core  Show core plugins.
+
+GLOBAL FLAGS
+  --json  Format output as json.
 
 DESCRIPTION
   List installed plugins.
@@ -118,7 +121,7 @@ EXAMPLES
   $ oclif-esm-starter plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v2.4.7/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v3.1.6/src/commands/plugins/index.ts)_
 
 ## `oclif-esm-starter plugins:install PLUGIN...`
 
