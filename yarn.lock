@@ -959,11 +959,11 @@ __metadata:
   linkType: hard
 
 "@oclif/plugin-help@npm:^5, @oclif/plugin-help@npm:^5.1.19":
-  version: 5.2.10
-  resolution: "@oclif/plugin-help@npm:5.2.10"
+  version: 5.2.11
+  resolution: "@oclif/plugin-help@npm:5.2.11"
   dependencies:
-    "@oclif/core": ^2.8.7
-  checksum: 205b88623ba8c091dfb269eb043570d89c0f80427b7bc7507b68172bd7421876f5342ff95d8c8a4af4431b6ae4b43592e3f2b041d4a82a31cdad0e6d481e099c
+    "@oclif/core": ^2.8.11
+  checksum: 5fd2ed2f6dd616860a00b8baee5f94cfcb19ab661af672756ee6ed22b38e27d917e1235a997f3cc5326c8ee0718115cc2773972d4d76158ff3618f760d44245a
   languageName: node
   linkType: hard
 
@@ -8149,11 +8149,11 @@ __metadata:
 
 "typescript@patch:typescript@^5.1.6#~builtin<compat/typescript>":
   version: 5.1.6
-  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
+  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=85af82"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f53bfe97f7c8b2b6d23cf572750d4e7d1e0c5fff1c36d859d0ec84556a827b8785077bc27676bf7e71fae538e517c3ecc0f37e7f593be913d884805d931bc8be
+  checksum: 21e88b0a0c0226f9cb9fd25b9626fb05b4c0f3fddac521844a13e1f30beb8f14e90bd409a9ac43c812c5946d714d6e0dee12d5d02dfc1c562c5aacfa1f49b606
   languageName: node
   linkType: hard
 
