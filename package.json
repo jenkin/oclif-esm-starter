@@ -1,9 +1,10 @@
 {
+  "type": "module",
   "name": "oclif-esm-starter",
   "version": "0.0.0",
   "description": "oclif example Hello World CLI",
   "author": "Alessio Cimarelli @jenkin",
-  "bin": "./bin/run",
+  "bin": "./bin/run.js",
   "homepage": "https://github.com/jenkin/oclif-esm-starter",
   "license": "MIT",
   "main": "dist/index.js",
