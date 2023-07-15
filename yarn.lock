@@ -986,13 +986,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oclif/test@npm:^2.3.26":
-  version: 2.3.26
-  resolution: "@oclif/test@npm:2.3.26"
+"@oclif/test@npm:^2.3.28":
+  version: 2.3.28
+  resolution: "@oclif/test@npm:2.3.28"
   dependencies:
     "@oclif/core": ^2.8.11
-    fancy-test: ^2.0.27
-  checksum: 7eb0bdead47c2d137245e0bc581ed0349e2b5c90617855dee708ea8ff313a26669918b95869fc63874b28595e11810af0a3e9793513d11417a870a547e703059
+    fancy-test: ^2.0.28
+  checksum: f7e81a7c8da16db5e4115c815cac13cf28caf858a7b507b1d8fd037602f3d2b7086c572bf52d0cdb99f018713f4983d514d85413725e135f3d3283f8c561ec16
   languageName: node
   linkType: hard
 
@@ -3476,9 +3476,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fancy-test@npm:^2.0.27":
-  version: 2.0.27
-  resolution: "fancy-test@npm:2.0.27"
+"fancy-test@npm:^2.0.28":
+  version: 2.0.29
+  resolution: "fancy-test@npm:2.0.29"
   dependencies:
     "@types/chai": "*"
     "@types/lodash": "*"
@@ -3488,7 +3488,7 @@ __metadata:
     mock-stdin: ^1.0.0
     nock: ^13.3.1
     stdout-stderr: ^0.1.9
-  checksum: 9e7e4f49d67f132e6612a4b4f942dc607833e863dccb95448a98c0821ccd0e95f8bc7954f13400a01d52a8b90b925f26fb39da5dd93be58d5b650b666d425e4f
+  checksum: 0b30d9ce6432f6813d3551f12e15c7451e337faa03395fce9b341638f8e7765fc76d7bdf530da9486530c7445e745f96d9f7b2d35e09a587b32169d8fd1dc32c
   languageName: node
   linkType: hard
 
@@ -6329,7 +6329,7 @@ __metadata:
     "@oclif/core": ^2
     "@oclif/plugin-help": ^5
     "@oclif/plugin-plugins": ^3.1.6
-    "@oclif/test": ^2.3.26
+    "@oclif/test": ^2.3.28
     "@types/chai": ^4
     "@types/mocha": ^10.0.1
     "@types/node": ^20.3.3
