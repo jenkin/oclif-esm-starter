@@ -878,8 +878,8 @@ __metadata:
   linkType: hard
 
 "@oclif/core@npm:^2, @oclif/core@npm:^2.8.11, @oclif/core@npm:^2.8.4, @oclif/core@npm:^2.8.7":
-  version: 2.8.11
-  resolution: "@oclif/core@npm:2.8.11"
+  version: 2.9.4
+  resolution: "@oclif/core@npm:2.9.4"
   dependencies:
     "@types/cli-progress": ^3.11.0
     ansi-escapes: ^4.3.2
@@ -901,6 +901,7 @@ __metadata:
     object-treeify: ^1.1.33
     password-prompt: ^1.1.2
     semver: ^7.5.3
+    slice-ansi: ^4.0.0
     string-width: ^4.2.3
     strip-ansi: ^6.0.1
     supports-color: ^8.1.1
@@ -910,7 +911,7 @@ __metadata:
     widest-line: ^3.1.0
     wordwrap: ^1.0.0
     wrap-ansi: ^7.0.0
-  checksum: 62cdc589e0ee984dfbc24924a3ed297540aab9de9034e4476f58892727d69a062bfd7e4a02cd034a4c9f4e773c5a95545bf631400efc31ae4370563dc2dfc375
+  checksum: 5a493178fcd332535e6c1e21f47bc4d18a16eb9d571e27c786d3c558954bdcb648ac617e7378d2f81fd4802795d5330cd18a1d0fbe7505b597965931ed37a7fb
   languageName: node
   linkType: hard
 
@@ -1895,6 +1896,13 @@ __metadata:
   version: 1.1.0
   resolution: "assertion-error@npm:1.1.0"
   checksum: fd9429d3a3d4fd61782eb3962ae76b6d08aa7383123fca0596020013b3ebd6647891a85b05ce821c47d1471ed1271f00b0545cf6a4326cf2fc91efcc3b0fbecf
+  languageName: node
+  linkType: hard
+
+"astral-regex@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "astral-regex@npm:2.0.0"
+  checksum: 876231688c66400473ba505731df37ea436e574dd524520294cc3bbc54ea40334865e01fa0d074d74d036ee874ee7e62f486ea38bc421ee8e6a871c06f011766
   languageName: node
   linkType: hard
 
@@ -7467,6 +7475,17 @@ __metadata:
   version: 3.0.0
   resolution: "slash@npm:3.0.0"
   checksum: 94a93fff615f25a999ad4b83c9d5e257a7280c90a32a7cb8b4a87996e4babf322e469c42b7f649fd5796edd8687652f3fb452a86dc97a816f01113183393f11c
+  languageName: node
+  linkType: hard
+
+"slice-ansi@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "slice-ansi@npm:4.0.0"
+  dependencies:
+    ansi-styles: ^4.0.0
+    astral-regex: ^2.0.0
+    is-fullwidth-code-point: ^3.0.0
+  checksum: 4a82d7f085b0e1b070e004941ada3c40d3818563ac44766cca4ceadd2080427d337554f9f99a13aaeb3b4a94d9964d9466c807b3d7b7541d1ec37ee32d308756
   languageName: node
   linkType: hard
 
