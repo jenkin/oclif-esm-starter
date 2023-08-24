@@ -80,6 +80,8 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
+_See code: [dist/commands/hello/world.ts](https://github.com/jenkin/oclif-esm-starter/blob/v0.0.0/dist/commands/hello/world.ts)_
+
 ## `oclif-esm-starter help [COMMANDS]`
 
 Display help for oclif-esm-starter.
@@ -98,7 +100,7 @@ DESCRIPTION
   Display help for oclif-esm-starter.
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v5.2.10/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v5.2.17/src/commands/help.ts)_
 
 ## `oclif-esm-starter plugins`
 
@@ -121,7 +123,7 @@ EXAMPLES
   $ oclif-esm-starter plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v3.1.6/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v3.2.6/src/commands/plugins/index.ts)_
 
 ## `oclif-esm-starter plugins:install PLUGIN...`
 
@@ -186,6 +188,8 @@ EXAMPLES
   $ oclif-esm-starter plugins:inspect myplugin
 ```
 
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v3.2.6/src/commands/plugins/inspect.ts)_
+
 ## `oclif-esm-starter plugins:install PLUGIN...`
 
 Installs a plugin into the CLI.
@@ -224,6 +228,8 @@ EXAMPLES
   $ oclif-esm-starter plugins:install someuser/someplugin
 ```
 
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v3.2.6/src/commands/plugins/install.ts)_
+
 ## `oclif-esm-starter plugins:link PLUGIN`
 
 Links a plugin into the CLI for development.
@@ -251,28 +257,7 @@ EXAMPLES
   $ oclif-esm-starter plugins:link myplugin
 ```
 
-## `oclif-esm-starter plugins:uninstall PLUGIN...`
-
-Removes a plugin from the CLI.
-
-```
-USAGE
-  $ oclif-esm-starter plugins:uninstall PLUGIN...
-
-ARGUMENTS
-  PLUGIN  plugin to uninstall
-
-FLAGS
-  -h, --help     Show CLI help.
-  -v, --verbose
-
-DESCRIPTION
-  Removes a plugin from the CLI.
-
-ALIASES
-  $ oclif-esm-starter plugins unlink
-  $ oclif-esm-starter plugins remove
-```
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v3.2.6/src/commands/plugins/link.ts)_
 
 ## `oclif-esm-starter plugins:uninstall PLUGIN...`
 
@@ -296,6 +281,31 @@ ALIASES
   $ oclif-esm-starter plugins unlink
   $ oclif-esm-starter plugins remove
 ```
+
+## `oclif-esm-starter plugins:uninstall PLUGIN...`
+
+Removes a plugin from the CLI.
+
+```
+USAGE
+  $ oclif-esm-starter plugins:uninstall PLUGIN...
+
+ARGUMENTS
+  PLUGIN  plugin to uninstall
+
+FLAGS
+  -h, --help     Show CLI help.
+  -v, --verbose
+
+DESCRIPTION
+  Removes a plugin from the CLI.
+
+ALIASES
+  $ oclif-esm-starter plugins unlink
+  $ oclif-esm-starter plugins remove
+```
+
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v3.2.6/src/commands/plugins/uninstall.ts)_
 
 ## `oclif-esm-starter plugins:uninstall PLUGIN...`
 
@@ -335,4 +345,6 @@ FLAGS
 DESCRIPTION
   Update installed plugins.
 ```
+
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v3.2.6/src/commands/plugins/update.ts)_
 <!-- commandsstop -->

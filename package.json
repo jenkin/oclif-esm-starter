@@ -2,7 +2,7 @@
   "type": "module",
   "name": "oclif-esm-starter",
   "version": "0.0.0",
-  "description": "oclif example Hello World CLI",
+  "description": "oclif example Hello World CLI with ESM support",
   "author": "Alessio Cimarelli @jenkin",
   "bin": "./bin/run.js",
   "homepage": "https://github.com/jenkin/oclif-esm-starter",
@@ -16,26 +16,26 @@
     "/oclif.manifest.json"
   ],
   "dependencies": {
-    "@oclif/core": "^2",
-    "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^3.1.6"
+    "@oclif/core": "^2.11.10",
+    "@oclif/plugin-help": "^5.2.17",
+    "@oclif/plugin-plugins": "^3.3.0"
   },
   "devDependencies": {
-    "@oclif/test": "^2.3.26",
-    "@types/chai": "^4",
+    "@oclif/test": "^2.4.7",
+    "@types/chai": "^4.3.5",
     "@types/mocha": "^10.0.1",
-    "@types/node": "^20.3.3",
-    "@typescript-eslint/eslint-plugin": "^5.61.0",
-    "chai": "^4",
-    "eslint": "^8.44.0",
-    "eslint-config-oclif": "^4",
+    "@types/node": "^20.5.4",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "chai": "^4.3.8",
+    "eslint": "^8.47.0",
+    "eslint-config-oclif": "^4.0.0",
     "eslint-config-oclif-typescript": "^1.0.3",
-    "eslint-plugin-unicorn": "^47.0.0",
-    "mocha": "^10",
-    "oclif": "^3",
+    "eslint-plugin-unicorn": "^48.0.1",
+    "mocha": "^10.2.0",
+    "oclif": "^3.11.3",
     "shx": "^0.3.4",
     "ts-node": "^10.9.1",
-    "tslib": "^2.6.0",
+    "tslib": "^2.6.2",
     "typescript": "^5.1.6"
   },
   "oclif": {
@@ -63,15 +63,11 @@
     "version": "oclif readme && git add README.md"
   },
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=16 <=18"
   },
   "bugs": "https://github.com/jenkin/oclif-esm-starter/issues",
   "keywords": [
     "oclif"
   ],
-  "types": "dist/index.d.ts",
-  "resolutions": {
-    "semver": ">=7.5.2",
-    "xml2js": ">=0.5.0"
-  }
+  "types": "dist/index.d.ts"
 }
