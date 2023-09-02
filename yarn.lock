@@ -1004,13 +1004,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oclif/test@npm:^2.4.8":
-  version: 2.4.8
-  resolution: "@oclif/test@npm:2.4.8"
+"@oclif/test@npm:^2.5.1":
+  version: 2.5.1
+  resolution: "@oclif/test@npm:2.5.1"
   dependencies:
     "@oclif/core": ^2.11.10
     fancy-test: ^2.0.35
-  checksum: 5a4bd8d2fd05d278893c10658c076f5ebbd93c12c324b13d38b0f5536dda0d4a52b5330db4bbd14135539435a79d9e70c70013d17074a08a0998161f1f7466ba
+  checksum: 51ba33c35f3ef0a7e832b2867526c5fb68fd40e4081117f1458ce5b373ef887005728c256cc63f40b95d0926b1599ec1a5445fd7adcce43cd03c8e8bcd844898
   languageName: node
   linkType: hard
 
@@ -5917,7 +5917,7 @@ __metadata:
     "@oclif/core": ^2.12.0
     "@oclif/plugin-help": ^5.2.18
     "@oclif/plugin-plugins": ^3.3.1
-    "@oclif/test": ^2.4.8
+    "@oclif/test": ^2.5.1
     "@types/chai": ^4.3.5
     "@types/mocha": ^10.0.1
     "@types/node": ^20.5.7
@@ -7570,11 +7570,11 @@ __metadata:
 
 "typescript@patch:typescript@^5.2.2#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=5da071"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 07106822b4305de3f22835cbba949a2b35451cad50888759b6818421290ff95d522b38ef7919e70fb381c5fe9c1c643d7dea22c8b31652a717ddbd57b7f4d554
+  checksum: 0f4da2f15e6f1245e49db15801dbee52f2bbfb267e1c39225afdab5afee1a72839cd86000e65ee9d7e4dfaff12239d28beaf5ee431357fcced15fb08583d72ca
   languageName: node
   linkType: hard
 
