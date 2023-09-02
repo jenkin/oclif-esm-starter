@@ -901,9 +901,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oclif/core@npm:^2.12.0":
-  version: 2.12.0
-  resolution: "@oclif/core@npm:2.12.0"
+"@oclif/core@npm:^2.15.0":
+  version: 2.15.0
+  resolution: "@oclif/core@npm:2.15.0"
   dependencies:
     "@types/cli-progress": ^3.11.0
     ansi-escapes: ^4.3.2
@@ -914,7 +914,6 @@ __metadata:
     cli-progress: ^3.12.0
     debug: ^4.3.4
     ejs: ^3.1.8
-    fs-extra: ^9.1.0
     get-package-type: ^0.1.0
     globby: ^11.1.0
     hyperlinker: ^1.0.0
@@ -924,7 +923,6 @@ __metadata:
     natural-orderby: ^2.0.3
     object-treeify: ^1.1.33
     password-prompt: ^1.1.2
-    semver: ^7.5.3
     slice-ansi: ^4.0.0
     string-width: ^4.2.3
     strip-ansi: ^6.0.1
@@ -935,7 +933,7 @@ __metadata:
     widest-line: ^3.1.0
     wordwrap: ^1.0.0
     wrap-ansi: ^7.0.0
-  checksum: 6e50d5711a4103aa3410e9e869525633cbe05aa5edf2d8eb24e989bf824b47150613e479abcd1f35454612be17a949ae979fb7ac017098baa825bf2986dc37af
+  checksum: a4ef8ad00d9bc7cb48e5847bad7def6947f913875f4b0ecec65ab423a3c2a82c87df173c709c3c25396d545f60d20d17d562c474f66230d76de43061ce22ba90
   languageName: node
   linkType: hard
 
@@ -5914,7 +5912,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "oclif-esm-starter@workspace:."
   dependencies:
-    "@oclif/core": ^2.12.0
+    "@oclif/core": ^2.15.0
     "@oclif/plugin-help": ^5.2.18
     "@oclif/plugin-plugins": ^3.3.1
     "@oclif/test": ^2.4.8
@@ -7570,11 +7568,11 @@ __metadata:
 
 "typescript@patch:typescript@^5.2.2#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=5da071"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 07106822b4305de3f22835cbba949a2b35451cad50888759b6818421290ff95d522b38ef7919e70fb381c5fe9c1c643d7dea22c8b31652a717ddbd57b7f4d554
+  checksum: 0f4da2f15e6f1245e49db15801dbee52f2bbfb267e1c39225afdab5afee1a72839cd86000e65ee9d7e4dfaff12239d28beaf5ee431357fcced15fb08583d72ca
   languageName: node
   linkType: hard
 
