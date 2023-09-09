@@ -5928,7 +5928,7 @@ __metadata:
     eslint-config-oclif-typescript: ^1.0.3
     eslint-plugin-unicorn: ^48.0.1
     mocha: ^10.2.0
-    oclif: ^3.12.0
+    oclif: ^3.15.0
     shx: ^0.3.4
     ts-node: ^10.9.1
     tslib: ^2.6.2
@@ -5938,9 +5938,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"oclif@npm:^3.12.0":
-  version: 3.12.0
-  resolution: "oclif@npm:3.12.0"
+"oclif@npm:^3.15.0":
+  version: 3.15.0
+  resolution: "oclif@npm:3.15.0"
   dependencies:
     "@oclif/core": ^2.11.4
     "@oclif/plugin-help": ^5.2.14
@@ -5962,7 +5962,7 @@ __metadata:
     yeoman-generator: ^5.8.0
   bin:
     oclif: bin/run
-  checksum: 58963f580175f0b52e80bb0827110dacfbbe27ff195e37ed46382827f3257f4cb189903aec5678d0ccbeb86741376ff00205242c0b515cfcd6b5a8df712ab6d0
+  checksum: 9ccb7f47eabaa631807f780ed72f2bf3061ad5127f122b7fa042ca09185d4a19f649ee1e50915d3e4af0db2a10cfea59d9c09b5b7acec2a1d4ddaa0fb1c828a1
   languageName: node
   linkType: hard
 
@@ -7570,11 +7570,11 @@ __metadata:
 
 "typescript@patch:typescript@^5.2.2#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=5da071"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 07106822b4305de3f22835cbba949a2b35451cad50888759b6818421290ff95d522b38ef7919e70fb381c5fe9c1c643d7dea22c8b31652a717ddbd57b7f4d554
+  checksum: 0f4da2f15e6f1245e49db15801dbee52f2bbfb267e1c39225afdab5afee1a72839cd86000e65ee9d7e4dfaff12239d28beaf5ee431357fcced15fb08583d72ca
   languageName: node
   linkType: hard
 
