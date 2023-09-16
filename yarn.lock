@@ -939,6 +939,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@oclif/core@npm:^2.15.0":
+  version: 2.15.0
+  resolution: "@oclif/core@npm:2.15.0"
+  dependencies:
+    "@types/cli-progress": ^3.11.0
+    ansi-escapes: ^4.3.2
+    ansi-styles: ^4.3.0
+    cardinal: ^2.1.1
+    chalk: ^4.1.2
+    clean-stack: ^3.0.1
+    cli-progress: ^3.12.0
+    debug: ^4.3.4
+    ejs: ^3.1.8
+    get-package-type: ^0.1.0
+    globby: ^11.1.0
+    hyperlinker: ^1.0.0
+    indent-string: ^4.0.0
+    is-wsl: ^2.2.0
+    js-yaml: ^3.14.1
+    natural-orderby: ^2.0.3
+    object-treeify: ^1.1.33
+    password-prompt: ^1.1.2
+    slice-ansi: ^4.0.0
+    string-width: ^4.2.3
+    strip-ansi: ^6.0.1
+    supports-color: ^8.1.1
+    supports-hyperlinks: ^2.2.0
+    ts-node: ^10.9.1
+    tslib: ^2.5.0
+    widest-line: ^3.1.0
+    wordwrap: ^1.0.0
+    wrap-ansi: ^7.0.0
+  checksum: a4ef8ad00d9bc7cb48e5847bad7def6947f913875f4b0ecec65ab423a3c2a82c87df173c709c3c25396d545f60d20d17d562c474f66230d76de43061ce22ba90
+  languageName: node
+  linkType: hard
+
 "@oclif/plugin-help@npm:^5.2.14":
   version: 5.2.17
   resolution: "@oclif/plugin-help@npm:5.2.17"
@@ -968,14 +1004,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oclif/plugin-plugins@npm:^3.3.1":
-  version: 3.3.1
-  resolution: "@oclif/plugin-plugins@npm:3.3.1"
+"@oclif/plugin-plugins@npm:^3.7.0":
+  version: 3.7.0
+  resolution: "@oclif/plugin-plugins@npm:3.7.0"
   dependencies:
-    "@oclif/core": ^2.11.10
+    "@oclif/core": ^2.15.0
     chalk: ^4.1.2
     debug: ^4.3.4
-    fs-extra: ^9.0
     http-call: ^5.2.2
     load-json-file: ^5.3.0
     npm: 9.6.7
@@ -985,7 +1020,7 @@ __metadata:
     tslib: ^2.6.2
     validate-npm-package-name: ^5.0.0
     yarn: ^1.22.18
-  checksum: e63ca95ec3b7a3038fce86baa094bcb8f5d454bb96d17065f855813b55c1dd31c00aef72f5416cdc2e5c0299116bf0ca8adfe2421462e7a3528596786da7fda0
+  checksum: e805dbb2c471b67e7433a98980a9c1dcd8f4a7f9fe690d36c1a9575ed61778b37fe885bef76489884ce9b222ed672219ebcedfd0c6773ebd84d3cacea9a09874
   languageName: node
   linkType: hard
 
@@ -3557,7 +3592,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^9.0, fs-extra@npm:^9.0.1, fs-extra@npm:^9.1.0":
+"fs-extra@npm:^9.0.1, fs-extra@npm:^9.1.0":
   version: 9.1.0
   resolution: "fs-extra@npm:9.1.0"
   dependencies:
@@ -5916,7 +5951,7 @@ __metadata:
   dependencies:
     "@oclif/core": ^2.12.0
     "@oclif/plugin-help": ^5.2.18
-    "@oclif/plugin-plugins": ^3.3.1
+    "@oclif/plugin-plugins": ^3.7.0
     "@oclif/test": ^2.4.8
     "@types/chai": ^4.3.5
     "@types/mocha": ^10.0.1
@@ -7570,11 +7605,11 @@ __metadata:
 
 "typescript@patch:typescript@^5.2.2#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=5da071"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 07106822b4305de3f22835cbba949a2b35451cad50888759b6818421290ff95d522b38ef7919e70fb381c5fe9c1c643d7dea22c8b31652a717ddbd57b7f4d554
+  checksum: 0f4da2f15e6f1245e49db15801dbee52f2bbfb267e1c39225afdab5afee1a72839cd86000e65ee9d7e4dfaff12239d28beaf5ee431357fcced15fb08583d72ca
   languageName: node
   linkType: hard
 
