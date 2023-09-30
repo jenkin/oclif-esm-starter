@@ -1886,6 +1886,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"async-retry@npm:^1.3.3":
+  version: 1.3.3
+  resolution: "async-retry@npm:1.3.3"
+  dependencies:
+    retry: 0.13.1
+  checksum: 38a7152ff7265a9321ea214b9c69e8224ab1febbdec98efbbde6e562f17ff68405569b796b1c5271f354aef8783665d29953f051f68c1fc45306e61aec82fdc4
+  languageName: node
+  linkType: hard
+
 "async@npm:^3.2.3":
   version: 3.2.4
   resolution: "async@npm:3.2.4"
@@ -5928,7 +5937,7 @@ __metadata:
     eslint-config-oclif-typescript: ^1.0.3
     eslint-plugin-unicorn: ^48.0.1
     mocha: ^10.2.0
-    oclif: ^3.12.0
+    oclif: ^3.17.2
     shx: ^0.3.4
     ts-node: ^10.9.1
     tslib: ^2.6.2
@@ -5938,14 +5947,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"oclif@npm:^3.12.0":
-  version: 3.12.0
-  resolution: "oclif@npm:3.12.0"
+"oclif@npm:^3.17.2":
+  version: 3.17.2
+  resolution: "oclif@npm:3.17.2"
   dependencies:
     "@oclif/core": ^2.11.4
     "@oclif/plugin-help": ^5.2.14
     "@oclif/plugin-not-found": ^2.3.32
     "@oclif/plugin-warn-if-update-available": ^2.0.44
+    async-retry: ^1.3.3
     aws-sdk: ^2.1231.0
     concurrently: ^7.6.0
     debug: ^4.3.3
@@ -5962,7 +5972,7 @@ __metadata:
     yeoman-generator: ^5.8.0
   bin:
     oclif: bin/run
-  checksum: 58963f580175f0b52e80bb0827110dacfbbe27ff195e37ed46382827f3257f4cb189903aec5678d0ccbeb86741376ff00205242c0b515cfcd6b5a8df712ab6d0
+  checksum: 3da58e84fc8127893ad1b5b60d72bf4c9cbed5b78748d3d68c8a7ead4c8da5a548507d7c1bdb1a10a041f2938018ef15fdbf683629f8637fadf499b99f05a555
   languageName: node
   linkType: hard
 
@@ -6784,6 +6794,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"retry@npm:0.13.1":
+  version: 0.13.1
+  resolution: "retry@npm:0.13.1"
+  checksum: 47c4d5be674f7c13eee4cfe927345023972197dbbdfba5d3af7e461d13b44de1bfd663bfc80d2f601f8ef3fc8164c16dd99655a221921954a65d044a2fc1233b
+  languageName: node
+  linkType: hard
+
 "retry@npm:^0.12.0":
   version: 0.12.0
   resolution: "retry@npm:0.12.0"
@@ -7570,11 +7587,11 @@ __metadata:
 
 "typescript@patch:typescript@^5.2.2#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=5da071"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 07106822b4305de3f22835cbba949a2b35451cad50888759b6818421290ff95d522b38ef7919e70fb381c5fe9c1c643d7dea22c8b31652a717ddbd57b7f4d554
+  checksum: 0f4da2f15e6f1245e49db15801dbee52f2bbfb267e1c39225afdab5afee1a72839cd86000e65ee9d7e4dfaff12239d28beaf5ee431357fcced15fb08583d72ca
   languageName: node
   linkType: hard
 
